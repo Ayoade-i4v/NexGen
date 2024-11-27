@@ -44,14 +44,14 @@ function BottomNavigation() {
             
         </div>
         <div
-        onClick={() => navigate("/friends")}
+        onClick={() => navigate("/shares")}
         className={`flex flex-col items-center justify-center w-14 h-14 rounded-lg ${
             currentScreen == "/" ? "bg-black" : "bg-gray-900"
         }`}
         >
             <div className="flex flex-col items-center justify-center">
               <img className="w-7 h-7 object-contain" src={friends} alt="M" />
-              <p className="text-xs text-center">Shares</p>
+              <p className="text-xs text-center">Referrals</p>
             </div>
             
         </div>
@@ -69,14 +69,14 @@ function BottomNavigation() {
         </div>
 
         <div
-        onClick={() => navigate("/blockchain")}
+        onClick={() => navigate("/airdrop")}
         className={`flex flex-col items-center justify-center w-14 h-14 rounded-lg ${
             currentScreen == "/" ? "bg-black" : "bg-gray-900"
         }`}
         >
             <div className="flex flex-col items-center justify-center">
               <img className="w-7 h-7 object-contain" src={blockchain} alt="M" />
-              <p className="text-xs text-center">Airdrop</p>
+              <p className="text-xs text-center">AirDrop</p>
             </div>
             
         </div>

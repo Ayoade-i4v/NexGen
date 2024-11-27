@@ -3,7 +3,7 @@ import React from 'react';
 function Referrals() {
   return (
     <div>
-      Refferals
+      Referrals
     </div>
   );
 }
